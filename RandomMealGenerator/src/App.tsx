@@ -23,7 +23,7 @@ function App() {
   return (
     <Container>
       <MainButton getData={getData} />
-      <Item data={data} />
+      {Object.keys(data).length ? <Item data={data} /> : null}
     </Container>
   );
 }
