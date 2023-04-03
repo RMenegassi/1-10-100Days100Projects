@@ -12,7 +12,7 @@ export const Title = styled.Text`
   color: black;
   font-size: 25px;
   font-weight: bold;
-  padding: 10px 0px;
+  padding-bottom: 10px;
 `;
 
 export const SubTitle = styled.Text`
